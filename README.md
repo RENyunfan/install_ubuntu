@@ -51,3 +51,21 @@ sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 ssh-keygen -t rsa -C "renyunfan@outlook.com" 
 ```
 
+
+
+# git
+
+
+
+```bash
+  git config --global user.email "renyunfan@outlook.com"
+  git config --global user.name "RENyunfan"
+
+```
+
+
+
+# OOQP
+
+https://github.com/RENyunfan/ooqp_group
+
