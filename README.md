@@ -131,7 +131,7 @@ sudo apt-get install ros-melodic-mavros*sudo apt-get install ros-melodic-pcl*sud
 
 clion装好后要装三个插件比较舒服
 
-* CodeGlance
+* CodeGlance Pro
 * Hatchery
 * Rainbow Brackets
 
