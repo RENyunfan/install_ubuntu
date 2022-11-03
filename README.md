@@ -14,16 +14,16 @@ sudo apt-get install cmake git zsh
 2）安装ohmyzsh
 
 ```bash
-wget -p ~/ https://github.com/ohmyzsh/ohmyzsh/blob/master/tools/install.sh
-sudo chmod +x ~/install.sh
-sh ~/install.sh
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sudo chmod +x ./install.sh
+sh ./install.sh
 ```
 
 3）安装插件
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 4）修改zshrc
@@ -51,6 +51,8 @@ alias pych=""
 # export PATH=~/anaconda3/bin:$PATH
 
 setopt no_nomatch # 允许使用 *缺省
+#For ROS
+#source /opt/ros/noetic/setup.zsh
 ```
 
 4）安装terminator
